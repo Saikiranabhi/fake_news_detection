@@ -1,0 +1,14 @@
+To run --> streamlit run app.py
+
+Deployment -->
+creation --> python -m venv .venv
+Activate --> venv/Scripts/Activate
+Creation of requirements.txt file --> pip freeze > requirements.txt
+
+github --> 
+git init 
+git add app.py requirements.txt lr_model.jb vectorizer.jb fakenews.ipynb
+git commit -m 'first-commit'
+git branch -m  main 
+git -remote add origin https:....
+git push -u origin main 
